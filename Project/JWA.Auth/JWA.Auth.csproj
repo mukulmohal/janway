@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4" Version="4.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JWA.Core\JWA.Core.csproj" />
+    <ProjectReference Include="..\JWA.Infrastructure\JWA.Infrastructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
